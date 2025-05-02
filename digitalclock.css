@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(16, 21, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgba(21, 28, 75, 0.534);
+    border: solid 1px #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 12px;
+}
+h1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 45px;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+}
+h2{
+    color: #fff;
+    font-size: 8vw;
+    padding: 2px 8px 2px 8px;
+}
+.clock-container{
+    background-color: rgb(16, 21, 56);
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+h1:hover{
+    transform: scale(1.1);
+    color: #b3a1a1;
+}
+.clock-container:hover,#clock:hover{
+    background-color: white;
+    color: rgb(16, 21, 56);
+}
